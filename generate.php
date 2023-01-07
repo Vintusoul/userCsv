@@ -17,7 +17,7 @@
           <strong>Users Generated</strong>, Click the button below to go back and upload the generated CSV :)
         </div>
       </div>
-      <div class="col-12 d-flex justify-content-center align-middle"> <button type="button" onclick="history.back();" class="btn btn-primary">Back</button></div>
+      <div class="col-12 d-flex justify-content-center align-middle"> <button type="button" onclick="history.back();" class="btn btn-success">Back</button></div>
     </div>
 </body>
 

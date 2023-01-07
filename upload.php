@@ -28,13 +28,13 @@ require_once __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$servername = $_ENV['SQL_SERVER'];
+$serverName = $_ENV['SQL_SERVER'];
 $username = $_ENV['SQL_USER'];
 $password = $_ENV['SQL_PASS'];
 $database = $_ENV['SQL_DB'];
 
 //connection
-$sql = mysqli_connect($servername, $username, $password, $database);
+$sql = mysqli_connect($servernName, $username, $password, $database);
 $file = fopen('output.csv', 'r');
 $r = 0;
 
